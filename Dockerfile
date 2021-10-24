@@ -11,4 +11,6 @@ RUN pipenv install
 
 COPY . /code/
 
+RUN chmod +x ./entrypoint.sh
+
 ENTRYPOINT ["sh", "entrypoint.sh"]
