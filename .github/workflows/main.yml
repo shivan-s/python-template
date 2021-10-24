@@ -28,6 +28,7 @@ jobs:
           exclude: "^tests*,*/migrations/*"
           max-line-length: "120"
 
+      - name: Setting environment and running tests
         env:
           TEST_VAR: no
         run: >
