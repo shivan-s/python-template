@@ -3,3 +3,20 @@
 ## About
 
 Provide information about the project
+
+## How to run projects
+
+```shell
+make run 
+```
+
+## Run tests
+
+## Uses pipenv to manage env variables and dependancies
+
+## deploy using github actions
+
+
+## How to use
+
+How to use?
