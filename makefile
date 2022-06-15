@@ -1,5 +1,6 @@
+.PHONY run
 run:
-	pipenv run python main.py
+	pipenv run python src/project/main.py
 
 .PHONY test
 test:

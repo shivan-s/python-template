@@ -7,7 +7,7 @@ Provide information about the project
 ## How to run projects
 
 ```shell
-make run 
+make run
 ```
 
 ## Run tests

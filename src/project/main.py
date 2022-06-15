@@ -1,8 +1,8 @@
-#!/usr/bin/env python
-# main.py - The main script lives here
+"""Contain main project file."""
 
 
 def main():
+    """Run main function."""
     return
 
 

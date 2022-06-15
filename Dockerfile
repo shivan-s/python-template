@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.10-slim
 
 ENV PYTHONDONTWEITEBYTECODE 1
 ENV PYTHONNUNBUFFERED 1
@@ -11,6 +11,4 @@ RUN pipenv install
 
 COPY . /code/
 
-RUN chmod +x ./entrypoint.sh
-
-ENTRYPOINT ["sh", "entrypoint.sh"]
+RUN pipenv run src/project/main.py

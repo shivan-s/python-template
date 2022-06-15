@@ -130,10 +130,13 @@ dmypy.json
 
 # vim
 *.swp
-*.swo  
+*.swo
 
 # vscode
 .vscode
 
 # ansible
 ansible.log
+
+# macos
+.DS_Store
