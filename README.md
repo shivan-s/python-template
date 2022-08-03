@@ -1,22 +1,44 @@
-# Project Name
-[![.github/workflows/main.yml](https://github.com/ShivanS93/python-template/actions/workflows/main.yml/badge.svg)](https://github.com/ShivanS93/python-template/actions/workflows/main.yml)
+# Project
+
+[![Build](https://github.com/shivan-s/python-template/actions/workflows/tests.yml/badge.svg)](https://github.com/shivan-s/python-template/actions/workflows/build.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 ## About
 
-Provide information about the project
+Provide information about the project.
 
-## How to run projects
+## The Structure of the Project
 
 ```shell
-make run
+├── auxiliary files
+├── src
+│   └── project
+│       ├── __init__.py
+│       ├── __main__.py
+│       └── project files...
+├── tests
+    ├── __init__.py
+    ├── conftest.py
+    └── project test files...
 ```
 
-## Run tests
+## Tests
 
-## Uses pipenv to manage env variables and dependancies
+The technologies used include:
 
-## deploy using github actions
+- `mypy`
+- `flake8`
+- `black`
+- `isort`
+- `pydocstyle`
 
+## Requirements
 
-## How to use
+- Python
+- pre-commit
+- tox
+- Docker
 
-How to use?
+## Resources
+
+This is heavily inspired by: <https://www.youtube.com/watch?v=DhUpxWjOhME>.

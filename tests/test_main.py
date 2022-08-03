@@ -10,7 +10,7 @@ def test_main():
     assert main() is None
 
 
-@pytest.xfail
+@pytest.mark.xfail
 def test_main_fail():
     """Expect fail."""
     assert True is False
