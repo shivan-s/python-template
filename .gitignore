@@ -140,3 +140,6 @@ ansible.log
 
 # macos
 .DS_Store
+
+# ctags
+tags
