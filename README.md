@@ -1,7 +1,7 @@
 # Project
 
-[[![Build](https://github.com/shivan-s/python-template/actions/workflows/build.yml/badge.svg)](https://github.com/shivan-s/python-template/actions/workflows/build.yml)
-![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Build](https://github.com/shivan-s/python-template/actions/workflows/build.yml/badge.svg)](https://github.com/shivan-s/python-template/actions/workflows/build.yml)
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 ## About
 
