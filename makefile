@@ -8,6 +8,8 @@ test:
 
 .PHONY: install
 install:
+	pre-commit install && \
+	pre-commit autoupdate && \
 	pipenv sync --dev
 
 .PHONY: docs-requirements

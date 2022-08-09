@@ -8,6 +8,13 @@
 
 Provide information about the project.
 
+## Before you start on your project
+
+Things you will need to do:
+
+1. remake `src/project` to the name of the project (remember must be snake case)
+2. change the metadata in `setup.cfg`.
+
 ## The Structure of the Project
 
 ```shell
