@@ -43,9 +43,11 @@ The technologies used include:
 ## Requirements
 
 - Python
+- pipenv
 - pre-commit
 - tox
 - Docker
+- Commitzen
 
 ## Resources
 
