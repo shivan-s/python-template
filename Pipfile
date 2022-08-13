@@ -10,7 +10,6 @@ pytest = "*"
 mypy = "*"
 flake8 = "*"
 pytest-cov = "*"
-bump2version = "*"
 pytest-xdist = "*"
 
 [requires]
